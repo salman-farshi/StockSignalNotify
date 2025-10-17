@@ -1,0 +1,18 @@
+{
+  "symbols": ["CDNS", "NVDA", "CRNC", "SAVA", "AAPL", "MSFT", "TSLA", "BBAI", "APLS"],
+  "interval": "30m",
+  "period": "60d",
+  "lookback": 20,
+  "sleep_seconds": 300,
+  "log_file": "signals_log.csv",
+
+  "auto_retrain": true,
+  "retrain_day": "Sunday",
+
+  "notify": true,
+  "telegram": {
+    "enabled": true,
+    "bot_token": "xxx",
+    "chat_id": "xxx"
+  }
+}
